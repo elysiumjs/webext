@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Elysium",
+    "version": "0.0.1",
+    "permissions": [
+      "theme",
+      "tabs"
+    ],
+    "sidebar_action": {
+        "browser_style": false,
+        "default_icon": "favicon.ico",
+        "default_title": "Elysium",
+        "default_panel": "index.html",
+        "open_at_install": true
+    },
+    "theme_experiment": {
+        "stylesheet": "theme.css",
+        "colors": {
+            "reload-button": "--reload-button-color"
+        }
+  }
+}
